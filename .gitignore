@@ -1,0 +1,10 @@
+
+.idea/
+xrpc-core/
+xrpc-java.iml
+*.iml
+rpc-java.iml
+xrpc-client/
+xrpc-common/src/
+xrpc-registry/src/main/java/com/heroxu/xrpc/registry/zookeeper/
+xrpc-server/src/
