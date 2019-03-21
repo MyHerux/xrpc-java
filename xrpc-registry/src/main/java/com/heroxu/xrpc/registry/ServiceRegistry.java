@@ -3,7 +3,7 @@ package com.heroxu.xrpc.registry;
 /**
  * 服务注册
  */
-public interface ServerRegistry {
+public interface ServiceRegistry {
 
     /**
      * 注册 <服务名称> 与 <服务地址>

@@ -3,7 +3,7 @@ package com.heroxu.xrpc.registry;
 /**
  * 服务发现
  */
-public interface ServerDiscovery {
+public interface ServiceDiscovery {
 
     /**
      * 根据 <服务名称> 查询 <服务地址>

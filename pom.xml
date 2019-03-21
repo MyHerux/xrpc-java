@@ -28,8 +28,9 @@
       <!-- SLF4J -->
       <dependency>
         <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
+        <artifactId>slf4j-api</artifactId>
         <version>${version.slf4j}</version>
+        <optional>true</optional>
       </dependency>
 
       <!-- ZooKeeper -->
@@ -44,6 +45,24 @@
         <groupId>com.101tec</groupId>
         <artifactId>zkclient</artifactId>
         <version>${version.zkclient}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.4</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.8.1</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-collections4</artifactId>
+        <version>4.2</version>
       </dependency>
 
     </dependencies>
