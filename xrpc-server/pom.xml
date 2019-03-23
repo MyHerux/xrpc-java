@@ -12,7 +12,7 @@
     <version>0.0.1</version>
   </parent>
 
-  <artifactId>rpc-registry</artifactId>
+  <artifactId>rpc-server</artifactId>
 
   <dependencies>
     <!-- SLF4J -->
@@ -22,16 +22,16 @@
       <optional>true</optional>
     </dependency>
 
-    <!-- ZooKeeper -->
+    <!-- Spring -->
     <dependency>
-      <groupId>org.apache.zookeeper</groupId>
-      <artifactId>zookeeper</artifactId>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
     </dependency>
 
-    <!-- ZkClient -->
+    <!-- CGLib -->
     <dependency>
-      <groupId>com.101tec</groupId>
-      <artifactId>zkclient</artifactId>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
     </dependency>
 
     <dependency>
