@@ -5,4 +5,3 @@ xrpc-java.iml
 *.iml
 rpc-java.iml
 xrpc-client/
-xrpc-common/src/

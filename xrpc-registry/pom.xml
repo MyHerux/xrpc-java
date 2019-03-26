@@ -12,7 +12,7 @@
     <version>0.0.1</version>
   </parent>
 
-  <artifactId>rpc-registry</artifactId>
+  <artifactId>xrpc-registry</artifactId>
 
   <dependencies>
     <!-- SLF4J -->

@@ -12,9 +12,25 @@
     <version>0.0.1</version>
   </parent>
 
-  <artifactId>rpc-server</artifactId>
+  <artifactId>xrpc-server</artifactId>
 
   <dependencies>
+
+    <!-- RPC Common -->
+    <dependency>
+      <groupId>com.heroxu.xrpc-java</groupId>
+      <artifactId>xrpc-common</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <!-- RPC Registry -->
+    <dependency>
+      <groupId>com.heroxu.xrpc-java</groupId>
+      <artifactId>xrpc-registry</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+
     <!-- SLF4J -->
     <dependency>
       <groupId>org.slf4j</groupId>

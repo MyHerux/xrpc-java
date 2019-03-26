@@ -21,6 +21,7 @@
   <modules>
     <module>xrpc-registry</module>
     <module>xrpc-server</module>
+    <module>xrpc-common</module>
   </modules>
 
   <dependencyManagement>
@@ -38,6 +39,33 @@
         <groupId>cglib</groupId>
         <artifactId>cglib</artifactId>
         <version>3.2.5</version>
+      </dependency>
+
+      <!-- Netty -->
+      <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>4.1.32.Final</version>
+      </dependency>
+
+      <!-- Protostuff -->
+      <dependency>
+        <groupId>com.dyuproject.protostuff</groupId>
+        <artifactId>protostuff-core</artifactId>
+        <version>1.0.9</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.dyuproject.protostuff</groupId>
+        <artifactId>protostuff-runtime</artifactId>
+        <version>1.0.9</version>
+      </dependency>
+
+      <!-- Objenesis -->
+      <dependency>
+        <groupId>org.objenesis</groupId>
+        <artifactId>objenesis</artifactId>
+        <version>2.6</version>
       </dependency>
 
       <!-- SLF4J -->
@@ -89,8 +117,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>7</source>
-          <target>7</target>
+          <source>8</source>
+          <target>8</target>
         </configuration>
       </plugin>
     </plugins>
